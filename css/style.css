@@ -10,13 +10,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   line-height: 2;
   /* min-height: 100vh; */
 }
 
 h1 {
   font-size: 50px;
+}
+
+ol li {
+  font-size: 30px;
+  color: black;
+  padding: 10px;
 }
 
 ol li a {
@@ -30,6 +36,7 @@ ol li a abbr {
   text-decoration: none;
 }
 
-ol li a abbr:hover {
+ol li a:hover {
   color: gray;
+  transition: all 0.5s ease;
 }
