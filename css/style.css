@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: skyblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 2;
+  /* min-height: 100vh; */
+}
+
+h1 {
+  font-size: 50px;
+}
+
+ol li a {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 30px;
+  color: black;
+}
+
+ol li a abbr {
+  text-decoration: none;
+}
+
+ol li a abbr:hover {
+  color: gray;
+}
